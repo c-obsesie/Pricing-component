@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet">
+
+    <title>Pricing component with toggle</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">
+        <h1>Our Pricing</h1>
+        <div class="switchy">
+        <span>Annually</span>
+        <label class="switch">
+          <input type="checkbox" id="checbox"  onclick="check()";/>
+          <span class="slider round"></span>
+        </label>
+        <span>Monthly</span></div>
+      </div>
+
+      <div class="package-conatainer">
+        <div class="packages">
+          <h1>Basic</h1>
+          <h2 class="text1">&dollar;19.99</h2> <h2 class="text2">&dollar;199.99</h2>
+          <ul class="list">
+            <li class=first>500 GB Storage</li>
+            <li>2 Users Allowed</li>
+            <li>Send up to 3 GB</li>
+          </ul>
+          <a href="#" class="button">Learn More</a> 
+        </div>
+        <div class="packages">
+          <h1>Professional</h1>
+          <h2 class="text1" >&dollar;29.99</h2> <h2 class="text2" >&dollar;299.99</h2>
+          <ul class="list">
+            <li class=first>1 tb Storage</li>
+            <li>4 Users Allowed</li>
+            <li>Send up to 10 GB</li>
+          </ul>
+          <a href="#" class="button">Learn More</a> 
+        </div>
+        <div class="packages">
+          <h1>Master</h1>
+          <h2 class='text1' >&dollar;39.99</h2> <h2 class="text2" >&dollar;399.99</h2>
+          <ul class="list">
+            <li class=first>2 TB Storage</li>
+            <li>10 Users Allowed</li>
+            <li>Send up to 20gb GB</li>
+          </ul>
+          <a href="#" class="button">Learn More</a> 
+        </div>
+      </div>
+    </div>
+    
+    <script src="./script.js"></script>
+  </body>
+</html>
